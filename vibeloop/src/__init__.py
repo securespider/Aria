@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+
+"""
+Description:  Init file for typer functions
+Author: securespider (vincent_pang@u.nus.edu)
+Created: 2024-10-23 10:28:47+0200
+"""
+
+
 import typer
 from aria_parser import *
 from typing_extensions import Annotated

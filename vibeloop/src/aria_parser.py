@@ -1,3 +1,13 @@
+#!/usr/bin/env python3
+
+"""
+Description:  Utility functions for using ARIA for video summarisation
+Author: securespider (vincent_pang@u.nus.edu)
+Created: 2024-10-23 10:27:34+0200
+"""
+
+
+
 from decord import VideoReader
 from PIL import Image
 from tqdm import tqdm
