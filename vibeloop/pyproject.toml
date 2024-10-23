@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "vibeloop"
+version = "0.1.0"
+description = ""
+authors = ["securespider <e0725031@u.nus.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aria = {git = "https://github.com/securespider/aria.git"}
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
